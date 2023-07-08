@@ -1,0 +1,41 @@
+.background {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 7fr 1fr;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: blue;
+}
+nav {
+  padding-right: 100px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  align-items: center;
+  background-color: red;
+  justify-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding-left: 50px;
+  gap: 150px;
+  justify-items: center;
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+.text-div {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+}
+.p-1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
