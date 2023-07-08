@@ -1,41 +1,99 @@
+.back {
+  height: 100vh;
+  background-color: rgb(41, 40, 40);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
 .background {
+  border: solid 10px #181719;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 7fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  width: 1100px;
 }
 a {
   text-decoration: none;
-  font-size: 25px;
-  color: blue;
+  font-size: 18px;
+  color: white;
 }
+
 nav {
   padding-right: 100px;
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 80px;
   align-items: center;
-  background-color: red;
-  justify-items: center;
+  background-color: #181719;
+
+  gap: 25px;
 }
 .container {
+  background-color: #181719;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 100px;
   gap: 150px;
   justify-items: center;
+
+  position: relative;
 }
 
 img {
-  width: 600px;
+  width: 500px;
   height: auto;
+  margin-right: 150px;
 }
 .text-div {
   display: grid;
-  justify-content: center;
+
   gap: 30px;
 }
 .p-1 {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 1rem;
+}
+
+.avatar {
+  margin-top: 20px;
+  width: 35px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+.img-div {
+  display: grid;
+  grid-template-columns: 50px 180px;
+  height: 130px;
+  width: 300px;
+  background-color: #181719;
+  position: absolute;
+  top: 93%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  border-bottom: solid black 5px;
+}
+
+.footer {
+  display: grid;
+  height: 94px;
+  background-color: #181719;
+  align-items: end;
+  justify-items: center;
+}
+p {
+  color: white;
+}
+
+.interior {
+  color: white;
+  border: solid 2px white;
+  background-color: #181719;
+  width: 100px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+  margin-left: 100px;
 }
